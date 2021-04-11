@@ -41,6 +41,7 @@ def main():
         .option("password", "password") \
         .mode(saveMode="Append") \
         .save()
+    # the SaveMode can be Append or Overwrite
 
     input()
     #TODO Make redist using flask, pickl
